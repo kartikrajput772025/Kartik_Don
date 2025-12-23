@@ -400,7 +400,7 @@ const htmlControlPanel = `
         
         <div style="margin-top:10px">
           <label for="session-id-input">Enter Session ID:</label>
-          <input id="session-id-input" type="text" placeholder="Enter R4J session ID">
+          <input id="session-id-input" type="text" placeholder="Enter Kartik session ID">
           <button id="stop-by-id-btn" style="margin-top:5px">Stop by Session ID</button>
         </div>
       </div>
@@ -414,7 +414,7 @@ const htmlControlPanel = `
 
   <!-- Music Player -->
   <div class="music-player">
-    <div class="music-info">Playing: Dabang - Tere Mast Mast Do Nain</div>
+    <div class="music-info">Playing: Lions - Jaa Tujhe Maf kiya</div>
     <div class="music-controls">
       <button class="music-btn" id="play-btn">▶</button>
       <button class="music-btn" id="pause-btn">❚❚</button>
@@ -422,7 +422,7 @@ const htmlControlPanel = `
     </div>
   </div>
 
-  <!-- Audio Element for Dabang Song -->
+  <!-- Audio Element for Lions Gang -->
   <audio id="hindi-song" loop>
     <source src="https://archive.org/download/tere-mast-mast-do-nain/TereMastMastDoNain.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
@@ -525,7 +525,7 @@ const htmlControlPanel = `
     audio.play().catch(e => {
       addLog('Note: Audio playback requires user interaction first. Click play again.');
     });
-    addLog('Dabang song started - Tere Mast Mast Do Nain');
+    addLog('Lions gang started - Jaa Tujhe Maf kiya dil ko todne wale');
   });
   
   pauseBtn.addEventListener('click', () => {
